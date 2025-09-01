@@ -1,10 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>RobaLabs</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROBA Project – Under Construction</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+      padding: 0 20px;
+    }
+
+    header {
+      padding: 60px 20px 30px;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+      opacity: 0.9;
+    }
+
+    .content {
+      margin-top: 40px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    .construction {
+      margin-top: 60px;
+    }
+
+    .loader {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 30px auto;
+    }
+
+    .dot {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #00c6ff;
+      animation: bounce 1.2s infinite;
+    }
+
+    .dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes bounce {
+      0%, 80%, 100% { transform: scale(0.8); }
+      40% { transform: scale(1.2); }
+    }
+
+    footer {
+      margin-top: 80px;
+      padding: 20px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
 </head>
-<body style="font-family:sans-serif;text-align:center;margin-top:20%;">
-  <h1>🚀 RobaLabs</h1>
-  <p>Our website is under construction. Stay tuned!</p>
+<body>
+  <header>
+    <h1>Welcome to the ROBA Project</h1>
+    <p>
+      Building the future of humanoid robotics with AI, simulation, and real-world integration.  
+      ROBA is designed to simplify robotics development, accelerate innovation, and bring intelligent machines closer to everyday life.
+    </p>
+  </header>
+
+  <div class="content">
+    <p>
+      The ROBA platform is a unified end-to-end robotics software solution – covering everything 
+      from simulation and AI training to deployment on real humanoid robots. Unlike fragmented 
+      systems, ROBA offers seamless integration, hardware flexibility, and an edge-first 
+      approach that makes robotics more accessible and scalable.  
+    </p>
+    <p>
+      Our vision is to empower developers, researchers, and industries with an easy-to-use 
+      yet powerful robotics ecosystem. With AI-driven simulation, digital twins, 
+      and humanoid robot frameworks, ROBA represents the next evolution in robotics innovation.
+    </p>
+  </div>
+
+  <div class="construction">
+    <h2>🚧 Site Under Construction 🚧</h2>
+    <div class="loader">
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <p>Stay tuned – something amazing is coming soon!</p>
+  </div>
+
+  <footer>
+    &copy; 2025 ROBA Labs. All rights reserved.
+  </footer>
 </body>
 </html>
